@@ -25,7 +25,7 @@ const connectDB = async() => {
   }
 }
 app.use(cors({
-  origin:["*", "http://localhost:5173", "https://blog-application-omega-pearl.vercel.app/"],
+  origin:["*", "http://localhost:5173", "https://blog-application-omega-pearl.vercel.app"],
   credentials:true,
   optionsSuccessStatus:200
 }))
